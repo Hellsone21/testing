@@ -1,0 +1,184 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  margin: 0 auto;
+  background-color: dodgerblue;
+}
+.user {
+  display: flex;
+  margin-left: 50px;
+}
+.user__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px groove #a8e601;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__links {
+  font-size: 12px;
+  color: dodgerblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  color: white;
+}
+.menu__links:hover {
+  color: #a8e601;
+  transition: 0.2s linear;
+}
+.main_content {
+  display: flex;
+}
+.left_side {
+  display: flex;
+  width: 200px;
+  height: 500px;
+  border-right: 1px solid #DCDCDC;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px 20px 30px;
+}
+.nav__links {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: dodgerblue;
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+}
+.nav__links:hover {
+  color: chartreuse;
+  transition: 0.2s linear;
+}
+.side__menu {
+  height: 200px;
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
+}
+h1 {
+  margin: 10px 20px 20px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+}
+.side_sub {
+  width: 100%;
+}
+.subs {
+  width: 200px;
+  height: 100%;
+}
+.subss {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+.subs__link {
+  font-size: 12px;
+  color: gray;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+li {
+  padding: 10px;
+}
+.store_head {
+  display: flex;
+  width: 1320px;
+  height: 120px;
+  border-right: 1px solid black;
+  border-bottom: 2px solid dodgerblue;
+}
+.stores {
+  display: flex;
+  height: 65px;
+}
+.stores__avatar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-top: 15px;
+}
+.ava {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.stores__content {
+  margin-bottom: 3px;
+  font-size: 1.06rem;
+  line-height: 1.2;
+  color: #444;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stores__sub {
+  font-size: 0.9rem;
+  color: rgba(43, 42, 44, 0.7);
+}
+span {
+  color: dodgerblue;
+  font-weight: 300;
+}
+.button {
+  margin-left: 910px;
+  margin-top: 70px;
+}
+button {
+  background: dodgerblue;
+  color: white;
+  padding: 8px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.stores__nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1320px;
+  height: 50px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.st__link {
+  font-size: 15px;
+  font-weight: 800;
+  color: dodgerblue;
+  padding: 15px;
+  margin-left: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.st__link:hover {
+  border-bottom: 3px solid dodgerblue;
+  padding-bottom: 15px;
+  border-radius: 2px 2px 2px 2px;
+  content: "";
+}
+.right_side {
+  width: 350px;
+  height: 900px;
+  border-left: 1px solid #DCDCDCed;
+}
+body {
+  margin: 0;
+}
